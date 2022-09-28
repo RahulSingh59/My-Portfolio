@@ -1,0 +1,17 @@
+.floating{
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0 28px 0 0;
+    height: 4.5rem;
+}
+.floating>img{
+    transform: scale(0.4);
+}
+.floating>span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
