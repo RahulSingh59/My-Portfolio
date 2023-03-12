@@ -1,17 +1,20 @@
-.floating{
-    display: flex;
-    justify-content: space-around;
-    background: #fff;
-    box-shadow: var(--boxShadow);
-    border-radius: 17px;
-    align-items: center;
-    padding: 0 28px 0 0;
-    height: 4.5rem;
+.floatingDiv {
+  justify-content: space-around;
+  background: white;
+  box-shadow: var(--boxShadow);
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  padding: 0px 28px 0px 0px;
+  height: 4.5rem;
 }
-.floating>img{
-    transform: scale(0.4);
+.floatingDiv > img {
+  transform: scale(0.4);
 }
-.floating>span{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+.floatingDiv > span {
+  font-family: sans-serif;
+  font-size: 16px;
+  /* yahan ye color add kia hy bad mein dark mode k waqt */
+  color: black;
 }
+
