@@ -46,7 +46,8 @@
 }
 
 .tb-img {
-    transform: scale(0.3);
+    transform: scale(0.35);
+    margin-left: -30px;
 }
 
 .i-icons>* {

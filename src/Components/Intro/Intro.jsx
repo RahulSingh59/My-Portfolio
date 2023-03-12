@@ -45,7 +45,7 @@ const Intro = () => {
           <a href="https://www.linkedin.com/in/rahul-singh-a1214a1a3/" target="_blank"  rel="noreferrer">
           <img src={LinkedIn} alt="" />
           </a>
-          <a className="tb-link" href="https://public.tableau.com/app/profile/rahul.singh5160/"  rel="noreferrer">
+          <a className="tb-link" href="https://public.tableau.com/app/profile/rahul.singh5160/" target="_blank" rel="noreferrer">
           <img className="tb-img" src={Tableau} alt="" />
           </a>
         </div>
@@ -70,7 +70,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Rockstart" text2="Award" />
+          <FloatinDiv img={crown} text1="Rockstar" text2="Award" />
         </motion.div>
 
         {/* animation */}

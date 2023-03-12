@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Works.css";
+import "./works.css";
 import Netflix from "../../img/Netflix.png";
 import csod from "../../img/csod.png";
 import su from "../../img/searchunify.png";
